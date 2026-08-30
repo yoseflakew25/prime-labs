@@ -5,39 +5,43 @@ import { useState, useCallback } from "react";
 const steps = [
   {
     num: "01",
-    label: "Share Your Requirements",
-    ariaLabel: "Step 01, Share Your Requirements",
+    title: "Discovery",
+    label: "Understanding your needs",
+    ariaLabel: "Step 01, Discovery",
     description:
-      "Send a brief, a spec, or even a rough idea, then fill in a short intake form: scope, integrations, timeline, and the constraints that matter. An NDA is part of our standard terms.",
+      "We begin by deeply understanding your business, challenges, and objectives through collaborative workshops and research.",
     image: "/assets/step-1.svg",
-    alt: "Upload panel for project requirements",
+    alt: "Discovery phase illustration",
   },
   {
     num: "02",
-    label: "We Scope and Architect (24 to 48 Hours)",
-    ariaLabel: "Step 02, We Scope and Architect",
+    title: "Strategy",
+    label: "Planning the solution",
+    ariaLabel: "Step 02, Strategy",
     description:
-      "Our team reviews the requirements for complexity, data model, integrations and compliance needs. We choose the right approach, size the team, and prepare your quote.",
+      "We develop a comprehensive strategy and roadmap tailored to your specific requirements and business goals.",
     image: "/assets/step-2.svg",
-    alt: "Requirements being turned into a technical plan",
+    alt: "Strategy planning illustration",
   },
   {
     num: "03",
-    label: "Transparent Quote and Timeline",
-    ariaLabel: "Step 03, Transparent Quote and Timeline",
+    title: "Development",
+    label: "Building with precision",
+    ariaLabel: "Step 03, Development",
     description:
-      "You receive a clear fixed-price estimate for your scope and a delivery schedule you can share with your board. No hourly billing. No surprises halfway through.",
+      "Our expert team designs and develops your solution using agile methodologies, ensuring quality at every step.",
     image: "/assets/step-3.svg",
-    alt: "A fixed price quote document",
+    alt: "Development phase illustration",
   },
   {
     num: "04",
-    label: "Build, Test and Hand Over",
-    ariaLabel: "Step 04, Build, Test and Hand Over",
+    title: "Delivery & Growth",
+    label: "Continuous improvement",
+    ariaLabel: "Step 04, Delivery & Growth",
     description:
-      "We build in two week sprints with demos you can actually see, automated tests, and written documentation. You own the code and the infrastructure from day one.",
+      "We deploy your solution and provide ongoing support, optimization, and enhancements to ensure long-term success.",
     image: "/assets/step-4.svg",
-    alt: "A delivery dashboard with passing tests",
+    alt: "Delivery and growth illustration",
   },
 ];
 
@@ -58,12 +62,12 @@ export default function HowItWorks() {
                 <div className="section_header align-center">
                   <div className="section_label border-primary-green">
                     <span className="text-color-primary-green">
-                      How It Works
+                      Our Process
                     </span>
                   </div>
                   <div className="section_title-block align-center text-align-center">
                     <h2 className="heading-style-h4">
-                      Here is how you go from requirement to running software.
+                      We follow a proven methodology to deliver exceptional results for every project.
                     </h2>
                   </div>
                 </div>
@@ -98,8 +102,9 @@ export default function HowItWorks() {
                       <div className="work_content">
                         <div className="work_info-content">
                           <h3 className="heading-style-h6 text-size-large">
-                            {step.label}
+                            {step.title}
                           </h3>
+                          <p className="work_info-subtitle">{step.label}</p>
                           <p className="opacity-60">{step.description}</p>
                         </div>
                         <div className="work_video-block">
@@ -117,11 +122,7 @@ export default function HowItWorks() {
                   ))}
                 </div>
               </div>
-              <div className="button_group">
-                <a href="#start" className="button">
-                  Start Your Project
-                </a>
-              </div>
+             
             </div>
           </div>
         </div>

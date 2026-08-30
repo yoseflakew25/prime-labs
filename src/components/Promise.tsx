@@ -5,22 +5,12 @@ export default function Promise() {
         <div className="container-large">
           <div className="padding-section-custom">
             <div className="section_gap-large align-center">
-              <h2 className="heading-style-h4 text-weight-normal text-style-italic text-align-center">
-                We don&apos;t ship &quot;good enough.&quot;
-              </h2>
+             
               <div className="close_enough-info">
                 <div className="close_enough-card">
-                  <svg className="close_enough-image" viewBox="0 0 135 40" aria-hidden="true">
-                    <rect x="0" y="6" width="28" height="28" fill="#021207" />
-                    <rect x="5" y="11" width="8" height="8" fill="#24cb71" />
-                    <rect x="15" y="11" width="8" height="8" fill="#d6fa7e" />
-                    <rect x="5" y="21" width="8" height="8" fill="#d6fa7e" />
-                    <rect x="15" y="21" width="8" height="8" fill="#24cb71" />
-                    <text x="34" y="27" fontFamily="Figtree, Arial" fontSize="17" fontWeight="700" fill="#021207">
-                      Prime Labs
-                    </text>
-                  </svg>
-                  <h3 className="heading-style-h6">The Prime Labs Promise</h3>
+                   <h2 className="heading-style-h4 text-weight-normal text-style-italic text-align-center">
+                We don&apos;t ship &quot;good enough.&quot;
+              </h2>
                   <p className="text-size-small">
                     At Prime Labs we believe trust is built through clarity,
                     precision and accountability. This letter is our commitment

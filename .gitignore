@@ -20,3 +20,4 @@ build/
 # python (legacy)
 __pycache__/
 *.pyc
+config.bat
