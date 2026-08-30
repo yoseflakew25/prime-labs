@@ -24,7 +24,7 @@ export default function Home() {
         {/* <ProblemSection /> */}
         <ServicesSection />
         <FeaturedWork />
-        <HowItWorks />
+        {/* <HowItWorks /> */}
         {/* <ComparisonTable /> */}
         {/* <Timeline /> */}
         <BuiltFor />

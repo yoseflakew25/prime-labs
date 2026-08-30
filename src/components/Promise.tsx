@@ -64,11 +64,7 @@ export default function Promise() {
                   </div>
                 </div>
               </div>
-              <div className="button_group z-index-2">
-                <a href="#start" className="button">
-                  <strong>Get Your Estimate</strong>
-                </a>
-              </div>
+             
             </div>
           </div>
         </div>
